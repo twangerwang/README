@@ -1,7 +1,9 @@
+// Install the needed packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const {generateReadme} = require('./utils/utils.js');
 
+//Prompts for the needed inputs for readme generation
 inquirer.prompt([
 {
     type:'input',
@@ -50,10 +52,9 @@ inquirer.prompt([
     message: 'What is your email address?',
 }
 ]).then((answers)=>{
+    //generate readme file
     const readmeFile = generateReadme(answers);
-
     fs.writeFile('./utils/readme.md', readmeFile, (err)=>
-    
     err? console.log(err):console.log('readme.md successfully created!')
     );
 });

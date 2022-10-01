@@ -16,7 +16,9 @@ const generateReadme = ({title, description, installation, usage, contribution, 
 ${description}
 
 ## Installation
+\`\`\`
 ${installation}
+\`\`\`
 
 ## Usage
 ${usage}
@@ -25,15 +27,17 @@ ${usage}
 ${contribution}
 
 ## Test
+\`\`\`
 ${test}
+\`\`\`
 
 ## License
 ${license}
 
 ## Questions
 Feel free to reach out!<br>
-https://github.com/${github}<br>
-${email}
+GitHub: https://github.com/${github}<br>
+Email: ${email}
 `;
 
 module.exports={
