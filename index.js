@@ -37,12 +37,12 @@ inquirer.prompt([
     type:'list',
     name: 'license',
     message: 'Which license would you like to use?',
-    choices: ['Apache 2.0', 'GNU General Public v3.0', 'MIT', 'BSD 2-Clause', 'BSD 3-Clause', 'Boost Software','Creative Commins Zero v1.0 UNiversal', 'Eclipse Public', 'GNU Affero General Public v2.0', 'GNU Lesser General Public v2.1', 'Mozilla Public', 'The Unlicense'],
+    choices: ['Apache 2.0', 'GNU General Public v3.0', 'MIT', 'BSD 2-Clause', 'BSD 3-Clause', 'Boost Software','Creative Commons Zero v1.0 Universal', 'Eclipse Public', 'GNU Affero General Public v2.0', 'GNU Lesser General Public v2.1', 'Mozilla Public', 'The Unlicense'],
 },
 {
     type:'input',
     name: 'github',
-    message: 'What if your GitHub user name?',
+    message: 'What is your GitHub user name?',
 },
 {
     type: 'input',
