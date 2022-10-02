@@ -1,4 +1,4 @@
-# README GENERATOR
+# Readme Generator
 ![License icon](https://img.shields.io/badge/License-MIT-green)
 ## Table of Contents
 ---
@@ -33,6 +33,9 @@ npm test
 MIT
 
 ## Questions
-Feel free to reach out!<br>
-GitHub: https://github.com/twangerwang<br>
-Email: test@test.com
+
+Feel free to reach out!
+
+GitHub: https://github.com/twangerwang
+
+Email: twangerwang@gmail.com

@@ -35,8 +35,11 @@ ${test}
 ${license}
 
 ## Questions
-Feel free to reach out!<br>
-GitHub: https://github.com/${github}<br>
+
+Feel free to reach out!
+
+GitHub: https://github.com/${github}
+
 Email: ${email}
 `;
 
