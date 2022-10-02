@@ -2,15 +2,15 @@ const generateReadme = ({title, description, installation, usage, contribution, 
 
 `# ${title}
 ![License icon](https://img.shields.io/badge/License-${license.replace(/\s+/g,'')}-green)
-## Table of Contents<br>
+## Table of Contents
 ---
-* [Description](#description)<br>
-* [Installation](#installation)<br>
-* [Usage](#usage)<br>
-* [Contribution](#contribution)<br>
-* [Tests](#test)<br>
-* [License](#license)<br>
-* [Questions](#questions)<br>
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#test)
+* [License](#license)
+* [Questions](#questions)
 ---
 ## Description  
 ${description}
