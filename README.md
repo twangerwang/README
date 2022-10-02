@@ -4,7 +4,7 @@ Create a Readme Generator that takes in parameters from the terminal and generat
 ## Description
 * Upon initializing index.js, the user is presented with a series of question about the readme file they want to generate. 
 
-* The Readme file created will include a link to the Github, email address entered and a badge for the license. 
+* The Readme file created will include a link to the Github, email address entered and a badge for the license. It will also include a table of contents to navigate to each corresponding section. 
 
 ## Mock-up
 The images below shows the webpage created
